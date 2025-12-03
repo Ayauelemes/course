@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+    <fieldset>
+        <!-- с fieldset можно сделать рамку -->
+        <legend>Регистрация</legend> 
+        <!-- legend для названия -->
+        <label for="name">Имя:</label>
+         <!-- показывает текстовую метку -->
+        <input type="text" id="id" name="name" required>
+        <!-- используется для данных -->
+        <br><label for="email">E-mail:</label>
+        <input type="email" name="email" required>
+        <br><label for="password">Пароль:</label>
+        <input type="password" name="password" required>
+        <br><label for="message">Комментарий:</label>
+        <br><textarea id="id" name="message" rows="3" cols="30"></textarea>
+        <!-- используется для Комментарий -->
+        <br><label for="country">Страна:</label>
+        <select id="id" name="country" required>
+            <!-- используется для создания списка -->
+            <option value="">Выберите свою страну</option>
+            <!-- это у нас варианты -->
+            <option value="ru">Россия</option>
+            <option value="kz">Казахстан</option>
+            <option value="us">США</option>
+        </select>
+        <button type="submit">Отправить</button>
+        <!-- кнопки -->
+        <button type="reset">Сброс</button>
+    </fieldset>
+    </form>
+</body>
+</html>
