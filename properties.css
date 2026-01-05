@@ -1,0 +1,28 @@
+h1{
+    color: darkgreen;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+p{
+    color: darkorange;
+    font-size: 20px;
+    text-align: center;
+}
+
+div{
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    margin: 20px;
+    border: 15px;
+    background-color:darkorange;
+    border-radius: 20px;
+}
+
+body{
+    background-image: url('dogs.jpg');
+    background-color: blanchedalmond;
+
+}
