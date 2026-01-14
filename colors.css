@@ -1,0 +1,41 @@
+h1{
+    color: #FF226789;  
+    /* здесь цвет задается с помощью кода hex */
+    text-align: center;
+    text-size-adjust: 15px;
+    font-size: 1rem;
+}
+
+div{
+    width: 200px;  
+    /* px для измерения точных размеров */
+    height: 150px;
+    margin: 50px;
+    border: 15px;
+    background-color:black;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: scale(1.2);
+    background-color: darkcyan;
+    
+}
+
+.box{
+    width:50%;
+    /* % половина ширины родительского элемента */
+    background-color: rgba(0, 128, 0, 0.392);
+    /* rgba добавляет прозрачность к цветам */
+}
+
+h3{
+    text-align: center;
+    color: rgb(250,45,78);
+    /* цвет задается с помощью rgb от 0 до 255 */
+    font-size: 2em;
+    /* два раза больше размера чем у родительского шрифта */
+}
+
+p{
+    color:rgba(0, 0, 0, 0.622);
+}

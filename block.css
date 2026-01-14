@@ -1,0 +1,32 @@
+.inline-to-block{
+    /* меняем линейные элементы на блочные именно картинку */
+    display: block;
+    margin: 10px 0;
+    background-color: brown;
+    padding: 10px;
+}
+
+.block-to-inline{
+    /* из блочного в строчный */
+    display: inline;
+    background-color: blue;
+    margin: 0 5px;
+    padding: 5px;
+}
+
+.block{
+    background-color: green;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.block img{
+    width: 300px;
+    height: 200px;
+}
+
+.inline{
+    background-color: darkorange;
+    margin: 0 10px;
+    padding: 3px;
+}

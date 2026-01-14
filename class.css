@@ -1,0 +1,67 @@
+.button:hover{
+    /* применяется когда мы наводим мышкой на кнопку */
+    background-color: darkred;
+    color: white;
+
+}
+
+.buy:focus{
+    /* используем когда мы наживаем на кнопку */
+    background-color: aqua;
+    color:black;
+    border-color: black;
+}
+
+.list:first-child{
+    /* Применяются к первому элементу среди дочерних элементов родителя. */
+    background-color: darkslategrey;
+    font-weight: bold;
+}
+
+.list:last-child{
+    /* Применяются к последнему элементу среди дочерних элементов родителя. */
+    background-color: indigo;
+    font-style: oblique;
+    color: white;
+}
+
+.box a:hover{
+    background-color: cadetblue;
+    color: white;
+}
+
+.box li:first-child{
+    font-weight: bold;
+}
+
+.box li:last-child{
+    color:brown;
+}
+
+.box li:nth-child(even) {
+    /* меняем цвет нечетных элементов */
+   background-color: green;
+}
+
+.box li:nth-child(odd) {
+    /* а тут четных */
+   background-color: #b18726;
+   color: black;
+}
+
+.container p:first-child:hover{
+    /* комбинация псевдоклассов  */
+    color:chocolate;
+    background-color: blue;
+}
+
+.top input:last-child:focus{
+    border:2px solid black;
+    background-color: lightslategrey;
+}
+
+
+
+
+
+

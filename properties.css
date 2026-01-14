@@ -19,6 +19,7 @@ div{
     border: 15px;
     background-color:darkorange;
     border-radius: 20px;
+    overflow: scroll;
 }
 
 body{
