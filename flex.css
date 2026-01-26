@@ -1,0 +1,104 @@
+body{ 
+    background-color: deepskyblue; 
+    margin: 0;
+    padding: 0;
+} 
+.content{ 
+    display: inline; 
+} 
+.content h1{ 
+    text-align: center; 
+} 
+.info{ 
+    display: flex; 
+} 
+.image{
+    display: block; 
+} 
+.image img{ 
+    width: 600px; 
+    height: 400px; 
+} 
+.list{ 
+    display: flex; 
+} 
+.list p{ 
+    justify-content: space-between; 
+    align-content: flex-start; 
+} 
+.list img{ 
+    width: 400px; 
+    height: 300px;
+    align-items: center; 
+} 
+.place ul{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 20px; 
+    background-color: lightgrey; 
+    flex-direction: column;
+    flex-wrap: wrap; 
+    align-content: center;
+    gap: 40px;
+}
+
+.text h3{
+    flex-grow: 1;
+}
+
+.text p{
+    flex-shrink: 2;
+}
+
+.text h4{
+    flex-basis: 200px;
+}
+
+.text h5{
+    flex: 1 1 100px;
+}
+
+.sport h2{
+    width: 50%;
+    background-color: blueviolet;
+}
+.sport p{
+    flex: 1;
+    background-color: coral;
+}
+.sport img{
+    width: 500px;
+    height: 400px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: darkcyan;
+}
+
+.menu a{
+    font-size: 18px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card{
+    background-color: khaki;
+    border: 1px solid black;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+}
