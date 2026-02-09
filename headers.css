@@ -1,0 +1,272 @@
+body{
+    background-color: #ffff;
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.header1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding:12px 40px;
+}
+
+.block1{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    justify-content: space-between;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    border: 1px solid #DFDFDF;
+    border-radius: 8px;
+    padding: 12px;
+    gap: 10px;
+    width: 352px;
+    height: 11px;
+}
+
+.search-box input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.block2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+
+.nav1 a:active{
+    color:#5C53E9 ;
+}
+
+.btn{
+    display: flex;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 12px;
+}
+
+.button{
+    background-color: #000000;
+    color: #DFDFDF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.header2{
+    background-color: white;
+    margin-bottom: 22px;
+    padding: 20px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px;
+}
+
+.block2{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    width: 497px;
+    height: 40px;
+}
+
+.logo2{
+    display: flex;
+    align-items: center;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    gap:48px;
+}
+
+.nav2 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#242424;
+}
+
+.nav2 a:active{
+    color: #5856D6;
+}
+
+.btn2{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 6px;
+    outline: none;
+}
+
+.image{
+    padding: 10px;
+    gap:6px;
+    background-color: #F0F0F0;
+    border-radius: 6px;
+    border:none;
+}
+.btn3{
+    padding: 10px;
+    gap:6px;
+    background-color: #5C53E9;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
+
+.button1{
+    background-color: #5C53E9;
+    border: none;
+    color: white;
+}
+
+.header3{
+    display: flex;
+    background-color: white;
+    padding: 28px 36px;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.nav3{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav3 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#242424;
+
+}
+
+.header4{
+    display: flex;
+    background-color: #111928;
+    padding: 30px 36px;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav4{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav4 a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #F0F0F0;
+
+}
+
+.header5{
+   display: flex;
+    background-color: #111928;
+    padding: 30px 36px;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #D6D8DE;
+    border-radius: 8px;
+    padding: 12px;
+    gap: 10px;
+    width: 500px;
+    height: 20px;
+}
+
+.image2 input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    background-color:#111928;
+    color: #DFDFDF;
+
+}
+
+.image2 img{
+    margin-left:320px;
+}
+
+.block4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav5{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav5 a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #F0F0F0;
+}
+
+.block5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
